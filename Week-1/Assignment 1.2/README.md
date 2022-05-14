@@ -1,6 +1,6 @@
 # pesto Week-1 Assignment-1.2
-By Jatin Gupta__
-A simple HTML CSS Project
+A simple HTML CSS Project <br />
+By Jatin Gupta
 
 ## Technologies Used
 - HTML
