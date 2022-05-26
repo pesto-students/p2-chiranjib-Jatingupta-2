@@ -1,4 +1,4 @@
-# pesto Week-2 Assignment-2.1
+# pesto Week-3 Assignment-3.1
 JS Assignment <br />
 By Jatin Gupta
 
