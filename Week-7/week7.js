@@ -150,6 +150,29 @@ function parenthesisChecker(arr) {
 console.log("----PARENTHESIS CHECKER---")
 console.log(parenthesisChecker(["{", "}", "(", "{", "}", ")", "[", "]"]))
 
+
+//Problem 7.5: Next Greater ELement
+
+function nextGreaterElement(arr){
+  let stack1 = []
+  let result = []
+
+  for(let i=arr.length-1;i>=0;i--){
+    if(stack1.length!=0){
+      while(stack1.length!=0 && stack1[stack1.length-1]<=arr[i]){
+        stack1.pop();
+      }
+    }
+    result[i]=stack1.length===0?-1:stack1[stack1.length-1];
+    stack1.push(arr[i])
+  }
+
+  return result;
+}
+
+console.log("----Next Greater Element----");
+console.log(nextGreaterElement([1,3,2,4,5]));
+
 // Problem 7.6: Implement a Queue using 2 stack
 
 let stack1 = [];
