@@ -1,0 +1,27 @@
+.to-do-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    padding: 50px 50px;
+}
+.todo-item{
+    display: flex;
+}
+h3{
+    margin-left: 10px;
+}
+.add-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-item input,
+.add-item button{
+    width: 30vw;
+    margin: 20px auto;
+    max-width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
