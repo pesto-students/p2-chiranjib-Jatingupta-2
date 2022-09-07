@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.home{
+    background: rgb(231, 231, 231);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.home header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.home header button{
+    margin-right: 20px;
+}
