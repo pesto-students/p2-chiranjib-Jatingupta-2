@@ -1,0 +1,14 @@
+{
+  "name": "assignment-5.4",
+  "version": "1.0.0",
+  "description": "JS Assignment <br />\r By Jatin Gupta",
+  "main": "main.test.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Jatin Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^28.1.1"
+  }
+}
